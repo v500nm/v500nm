@@ -21,7 +21,7 @@
 
 - ⚡ Fun fact **I practice PRO and acts NOOB**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="center">Connect with me:</h3>
 <p align="center">
 <a href="https://codepen.io/https://codepen.io/venomerous" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="https://codepen.io/venomerous" height="30" width="40" /></a>
 <a href="https://dev.to/https://dev.to/v500nm" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="https://dev.to/v500nm" height="30" width="40" /></a>
