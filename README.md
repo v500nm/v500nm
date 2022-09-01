@@ -22,7 +22,7 @@
 - ⚡ Fun fact **I practice PRO and acts NOOB**
 
 <h3 align="left">Connect with me:</h3>
-<p align="xenter">
+<p align="center">
 <a href="https://codepen.io/https://codepen.io/venomerous" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="https://codepen.io/venomerous" height="30" width="40" /></a>
 <a href="https://dev.to/https://dev.to/v500nm" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="https://dev.to/v500nm" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/adnan-mangaonkar-523351167/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/adnan-mangaonkar-523351167/" height="30" width="40" /></a>
