@@ -1,7 +1,6 @@
 ![MasterHead](https://media.giphy.com/media/bAQH7WXKqtIBrPs7sR/giphy.gif)
 <h1 align="center">Hey there 👋, It's Adnan Mangaonkar</h1>
 <h3 align="center">Learning everyday to Conquer</h3>
-<img align="right" alt="Coding" width="300" src="https://media.giphy.com/media/xUA7bdpLxQhsSQdyog/giphy.gif">
 
 - 🔭 I’m currently working on [Ojas Developers & CAP](https://v500nm.github.io/CAP-website/)
 
