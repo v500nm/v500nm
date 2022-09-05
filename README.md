@@ -1,4 +1,4 @@
-![MasterHead](https://media.giphy.com/media/bAQH7WXKqtIBrPs7sR/giphy.gif)
+<img src="https://media.giphy.com/media/bAQH7WXKqtIBrPs7sR/giphy.gif" align="center" width="1600" height="300">
 <h1 align="center">Hey there 👋, It's Adnan Mangaonkar</h1>
 <h3 align="center">Learning everyday to Conquer</h3>
 
@@ -47,4 +47,6 @@
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=v500nm&show_icons=true&locale=en&layout=compact" width="800" height="200" alt="v500nm" /></p>
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=v500nm&show_icons=true&locale=en" width="800" height="200" alt="v500nm" /></p>
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=v500nm&" width="800" height="200" alt="v500nm" /></p>
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=v500nm"  alt="v500nm" /></a> </p>
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=v500nm"  alt="v500nm" /></a> </p><hr>
+<h3 align="center">So persistent!...U made up this long</h3>
+<img align="center" src="https://media.giphy.com/media/eCqFYAVjjDksg/giphy.gif" width="1600" height="300">
