@@ -49,4 +49,4 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=v500nm&theme=radical" width="800" height="200" alt="v500nm" /></p>
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy&theme=radical"><img src="https://github-profile-trophy.vercel.app/?username=v500nm&theme=radical"  alt="v500nm" /></a> </p><hr>
 <h3 align="center">So persistent!...U made up this long</h3>
-<img align="center" src="https://media.giphy.com/media/eCqFYAVjjDksg/giphy.gif" width="1600" height="300" style="border-radius:50%">
+<img align="center" src="https://media.giphy.com/media/eCqFYAVjjDksg/giphy.gif" width="1600" height="300">
