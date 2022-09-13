@@ -45,8 +45,8 @@
 <h3 align="center">Essentials</h3><hr>
 <p align="center"><a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a><a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a>   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> </p><hr>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=v500nm&show_icons=true&locale=en&layout=compact&theme=radical" width="800" height="200" alt="v500nm" /></p>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=v500nm&show_icons=true&locale=en" width="800" height="200" alt="v500nm" /></p>
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=v500nm&" width="800" height="200" alt="v500nm" /></p>
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=v500nm"  alt="v500nm" /></a> </p><hr>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=v500nm&show_icons=true&locale=en&theme=radical" width="800" height="200" alt="v500nm" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=v500nm&theme=radical" width="800" height="200" alt="v500nm" /></p>
+<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy&theme=radical"><img src="https://github-profile-trophy.vercel.app/?username=v500nm&theme=radical"  alt="v500nm" /></a> </p><hr>
 <h3 align="center">So persistent!...U made up this long</h3>
 <img align="center" src="https://media.giphy.com/media/eCqFYAVjjDksg/giphy.gif" width="1600" height="300">
