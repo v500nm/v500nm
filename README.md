@@ -1,6 +1,6 @@
 <img src="https://media.giphy.com/media/bAQH7WXKqtIBrPs7sR/giphy.gif" align="center" width="1600" height="300">
 <h1 align="center">Hey there 👋, It's Adnan Mangaonkar</h1>
-<h3 align="center">Learning everyday to Conquer</h3>
+<h3 align="center">Learn - Grow - Conquer</h3>
 
 - 🔭 I’m currently working on [Ojas Developers & CAP](https://v500nm.github.io/CAP-website/)
 
