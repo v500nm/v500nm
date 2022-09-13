@@ -21,7 +21,7 @@
 - ⚡ Fun fact **I practice PRO and acts NOOBIE**
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=v500nm&label=Profile%20views&color=0e75b6&style=flat"  alt="v500nm" /> </p>
 
-<h2 align="center">Connect with me:</h2>
+<h2 align="center">🤝 Connect with me:</h2>
 <p align="center">
 <a href="https://codepen.io/https://codepen.io/venomerous" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="https://codepen.io/venomerous" height="30" width="40" /></a>
 <a href="https://dev.to/https://dev.to/v500nm" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="https://dev.to/v500nm" height="30" width="40" /></a>
@@ -31,7 +31,7 @@
 <a href="https://www.hackerrank.com/https://www.hackerrank.com/v500nm" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/v500nm" height="30" width="40" /></a>
 </p>
 
-<h2 align="center">Languages and Tools:</h2>
+<h2 align="center">👨‍💻 Languages and Tools:</h2>
 <h3 align="center">Designing</h3><hr>
 <p align="center"><a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a><a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a></p>
 <h3 align="center">Frameworks</h3><hr>
