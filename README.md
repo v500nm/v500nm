@@ -1,4 +1,4 @@
-<img src="https://drive.google.com/file/d/16Dvjeh3HRmlmkKsMKIqCWJYedAwpZeIl/view?usp=sharing" align="center" width="1600" height="300">
+<img src="https://drive.google.com/file/d/16Dvjeh3HRmlmkKsMKIqCWJYedAwpZeIl/view?usp=sharing" align="center" width="1000" height="300">
 <h1 align="center">Hey there 👋, It's Adnan Mangaonkar</h1>
 <h3 align="center">Learn - Grow - Conquer</h3>
 
