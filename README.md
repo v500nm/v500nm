@@ -1,4 +1,4 @@
-<img src="https://imgur.com/JOeVyk6" align="center" width="1000" height="300">
+<img src="[Imgur](https://imgur.com/JOeVyk6)" align="center" width="1000" height="300">
 <h1 align="center">Hey there 👋, It's Adnan Mangaonkar</h1>
 <h3 align="center">Learn - Grow - Conquer</h3>
 
