@@ -1,4 +1,4 @@
-<img src="[Hey-It-s-Adnan.png](https://i.postimg.cc/MZcHFCQ3/Hey-It-s-Adnan.png)" align="center" width="1600" height="300">
+<img src="https://postimg.cc/F14hfnG0" alt="Profile">
 <h1 align="center">Hey there 👋, It's Adnan Mangaonkar</h1>
 <h3 align="center">Learn - Grow - Conquer</h3>
 
