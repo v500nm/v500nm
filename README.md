@@ -1,4 +1,4 @@
-<img src="[![Hey-It-s-Adnan.png](https://i.postimg.cc/MZcHFCQ3/Hey-It-s-Adnan.png)](https://postimg.cc/F14hfnG0)" alt="Profile">
+[![Hey-It-s-Adnan.png](https://i.postimg.cc/MZcHFCQ3/Hey-It-s-Adnan.png)](https://postimg.cc/F14hfnG0)
 <h1 align="center">Hey there 👋, It's Adnan Mangaonkar</h1>
 <h3 align="center">Learn - Grow - Conquer</h3>
 
