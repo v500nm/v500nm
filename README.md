@@ -1,4 +1,4 @@
-<img src="https://media.giphy.com/media/bAQH7WXKqtIBrPs7sR/giphy.gif" align="center" width="1600" height="300">
+<img src="[![Hey-It-s-Adnan.png](https://i.postimg.cc/MZcHFCQ3/Hey-It-s-Adnan.png)](https://postimg.cc/F14hfnG0)" align="center" width="1600" height="300">
 <h1 align="center">Hey there 👋, It's Adnan Mangaonkar</h1>
 <h3 align="center">Learn - Grow - Conquer</h3>
 
