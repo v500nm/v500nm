@@ -1,4 +1,4 @@
-<img src="![Profile](/)" alt="profile" align="center" width="1600" height="300">
+<img src="![Profile](/https://ibb.co/7rnG9RM)" alt="profile" align="center" width="1600" height="300">
 <h1 align="center">Hey there 👋, It's Adnan Mangaonkar</h1>
 <h3 align="center">Learn - Grow - Conquer</h3>
 
