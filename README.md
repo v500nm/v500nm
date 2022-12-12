@@ -1,4 +1,4 @@
-[![Hey-It-s-Adnan.png](https://i.postimg.cc/Z5czhvD2/Hey-It-s-Adnan.png)](https://postimg.cc/NK5z6Ftk)
+<img src="![Profile](/)" alt="profile" align="center" width="1600" height="300">
 <h1 align="center">Hey there 👋, It's Adnan Mangaonkar</h1>
 <h3 align="center">Learn - Grow - Conquer</h3>
 
@@ -6,9 +6,7 @@
 
 - 🌱 I’m currently learning **Node, ASP.NET, MongoDB**
 
-- 👯 I’m looking to collaborate on **Node Attendance App**
-
-- 🤝 I’m looking for help with [@ritzkum](https://github.com/ritzkum)
+- 👯 I’m looking to collaborate on **Node Attendance App**                  
 
 - 👨‍💻 All of my projects are available at [https://techvadnan.tech](https://techvadnan.tech)
 
