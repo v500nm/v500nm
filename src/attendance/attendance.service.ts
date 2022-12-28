@@ -14,10 +14,10 @@ export class AttendanceService {
   }
 
   findAll(): Promise<attendance[]> {
-    return this.attModel.find().exec();
+    return this.attModel.find().populate('schedule').exec();
   }
 
-  findOne(attID: number) {
+  findOne(attID: number) { 
     return this.attModel.findOne({'attID':attID}).exec();
   }
 

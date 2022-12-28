@@ -1,6 +1,7 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
-import { HydratedDocument } from 'mongoose';
+import mongoose, { HydratedDocument } from 'mongoose';
 import { AttStatus } from './dto/create-attendance.dto';
+import { schedules } from 'src/schedule/schedule.schema';
 
 export type attDetail = HydratedDocument<attendance>;
 
@@ -11,6 +12,9 @@ export class attendance {
     
     @Prop({ type: String, enum: AttStatus, default: AttStatus.present })
     stats:AttStatus
+
+    @Prop({type:[{type: mongoose.Schema.Types.ObjectId, ref:'schedules'}]})
+    schedule:schedules[]
 
 }
 

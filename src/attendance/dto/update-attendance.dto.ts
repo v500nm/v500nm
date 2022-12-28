@@ -6,6 +6,5 @@ export class UpdateAttendanceDto extends PartialType(CreateAttendanceDto) {
 }
 export enum AttStatus{
     present="P",
-    absent="A",
-    noLecture="NA"
+    absent="A"
 }

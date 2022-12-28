@@ -18,15 +18,15 @@ export class GroupsService {
     return this.gModel.find().populate('students').exec()
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} group`;
+  findOne(gID: number) {
+    return this.gModel.findOne({'gID':gID}).exec();
   }
 
-  update(id: number, updateGroupDto: UpdateGroupDto) {
-    return `This action updates a #${id} group`;
+  update(gID: number, updateGroupDto: UpdateGroupDto) {
+    return this.gModel.findOneAndUpdate({'gID':gID}, updateGroupDto).exec();
   }
 
-  remove(id: number) {
-    return `This action removes a #${id} group`;
+  remove(gID: number) {
+    return this.gModel.findOneAndRemove({'gID':gID}).exec();
   }
 }

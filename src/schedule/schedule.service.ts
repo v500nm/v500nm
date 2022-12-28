@@ -15,7 +15,7 @@ export class ScheduleService {
   }
 
   async findAll(): Promise<schedules[]> {
-    return this.scModel.find().exec();
+    return this.scModel.find().populate(['groups','faculties','subjects']).exec();
   }
 
   async findOne(scID: number) {
