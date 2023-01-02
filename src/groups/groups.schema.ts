@@ -10,6 +10,7 @@ export class groups {
         gID:number
     @Prop()
         gName:string
+        
     @Prop({type: [{type :mongoose.Schema.Types.ObjectId, ref: 'students'}]})
         students:students[] 
 

@@ -9,7 +9,7 @@ import { gDetail, groups } from './groups.schema';
 export class GroupsService {
   constructor(@InjectModel(groups.name) private gModel:Model<gDetail>){}
 
-  create(createGroupDto: CreateGroupDto) {
+  async create(createGroupDto: CreateGroupDto) {
     const createdGroup= new this.gModel(createGroupDto)
     return createdGroup.save();
   }
@@ -18,15 +18,15 @@ export class GroupsService {
     return this.gModel.find().populate('students').exec()
   }
 
-  findOne(gID: number) {
+  async findOne(gID: number) {
     return this.gModel.findOne({'gID':gID}).exec();
   }
 
-  update(gID: number, updateGroupDto: UpdateGroupDto) {
+  async update(gID: number, updateGroupDto: UpdateGroupDto) {
     return this.gModel.findOneAndUpdate({'gID':gID}, updateGroupDto).exec();
   }
 
-  remove(gID: number) {
+  async remove(gID: number) {
     return this.gModel.findOneAndRemove({'gID':gID}).exec();
   }
 }
