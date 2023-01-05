@@ -13,8 +13,8 @@ export class StudentsController {
   }
 
   @Get()
-  findAll() {
-    return this.studentsService.findAll();
+  findAllStudents() {
+    return this.studentsService.findAllStudents();
   }
 
   @Get('/:roll')

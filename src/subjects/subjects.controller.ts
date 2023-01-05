@@ -8,27 +8,27 @@ export class SubjectsController {
   constructor(private readonly subjectsService: SubjectsService) {}
 
   @Post()
-  create(@Body() createSubjectDto: CreateSubjectDto) {
+  addSubject(@Body() createSubjectDto: CreateSubjectDto) {
     return this.subjectsService.addSubject(createSubjectDto);
   }
 
   @Get()
-  findAll() {
+  findAllSubjects() {
     return this.subjectsService.findAllSubjects();
   }
 
   @Get('/:subID')
-  findOne(@Param('subID') subID: number) {
+  findSubject(@Param('subID') subID: number) {
     return this.subjectsService.findSubject(+subID);
   }
 
   @Patch('/:subID')
-  update(@Param('subID') subID: number, @Body() updateSubjectDto: UpdateSubjectDto) {
+  updateSubject(@Param('subID') subID: number, @Body() updateSubjectDto: UpdateSubjectDto) {
     return this.subjectsService.updateSubject(+subID, updateSubjectDto);
   }
 
   @Delete('/:subID')
-  remove(@Param('subID') subID: number) {
+  removeSubject(@Param('subID') subID: number) {
     return this.subjectsService.removeSubject(+subID);
   }
 }

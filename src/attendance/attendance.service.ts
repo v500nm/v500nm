@@ -9,24 +9,24 @@ import { UpdateAttendanceDto } from './dto/update-attendance.dto';
 export class AttendanceService {
   constructor(@InjectModel(attendance.name) private attModel:Model<attDetail>){}
   
-  async create(createAttendanceDto: CreateAttendanceDto): Promise<attendance> {
+  async postAtt(createAttendanceDto: CreateAttendanceDto): Promise<attendance> {
     const markedAtt= new this.attModel(createAttendanceDto);
     return markedAtt.save();
   }
 
-  async findAll(): Promise<attendance[]> {
+  async findAllAtt(): Promise<attendance[]> {
     return this.attModel.find().populate('schedule').exec();
   }
 
-  async findOne(attID: number) { 
+  async findOneAtt(attID: number) { 
     return this.attModel.findOne({'attID':attID}).exec();
   }
 
-  async update(attID: number, updateAttendanceDto: UpdateAttendanceDto): Promise<attendance> {
+  async updateAtt(attID: number, updateAttendanceDto: UpdateAttendanceDto): Promise<attendance> {
     return this.attModel.findOneAndUpdate({'attID':attID},updateAttendanceDto).exec();
   }
 
-  async remove(attID: number): Promise<attendance> {
+  async removeAtt(attID: number): Promise<attendance> {
     return this.attModel.findOneAndRemove({'attID':attID}).exec();
   }
 }

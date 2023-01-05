@@ -9,24 +9,24 @@ import { questionDetail, questions } from './question.schema';
 export class QuestionService {
   constructor(@InjectModel(questions.name) private qModel:Model<questionDetail>){}
 
-  async create(createQuestionDto: CreateQuestionDto): Promise<questions> {
+  async createQuestion(createQuestionDto: CreateQuestionDto): Promise<questions> {
     const insertQuestion= new this.qModel(createQuestionDto);
     return insertQuestion.save();
   }
 
-  async findAll(): Promise<questions[]> {
+  async findAllQuestion(): Promise<questions[]> {
     return this.qModel.find().populate('suggestion').exec();
   }
 
-  async findOne(qID: number) {
+  async findOneQuestion(qID: number) {
     return this.qModel.findOne({'qID':qID}).exec()
   }
 
-  async update(qID: number, updateQuestionDto: UpdateQuestionDto): Promise<questions> {
+  async updateQuestion(qID: number, updateQuestionDto: UpdateQuestionDto): Promise<questions> {
     return this.qModel.findOneAndUpdate({'qID':qID},updateQuestionDto).exec();
   }
 
-  async remove(qID: number) {
+  async removeQuestion(qID: number) {
     return this.qModel.findOneAndRemove({'qID':qID}).exec();
   }
 }

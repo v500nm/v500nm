@@ -8,27 +8,27 @@ export class QuestionController {
   constructor(private readonly questionService: QuestionService) {}
 
   @Post()
-  create(@Body() createQuestionDto: CreateQuestionDto) {
-    return this.questionService.create(createQuestionDto);
+  createQuestion(@Body() createQuestionDto: CreateQuestionDto) {
+    return this.questionService.createQuestion(createQuestionDto);
   }
 
   @Get()
-  findAll() {
-    return this.questionService.findAll();
+  findAllQuestion() {
+    return this.questionService.findAllQuestion();
   }
 
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.questionService.findOne(+id);
+  findOneQuestion(@Param('id') id: string) {
+    return this.questionService.findOneQuestion(+id);
   }
 
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateQuestionDto: UpdateQuestionDto) {
-    return this.questionService.update(+id, updateQuestionDto);
+  updateQuestion(@Param('id') id: string, @Body() updateQuestionDto: UpdateQuestionDto) {
+    return this.questionService.updateQuestion(+id, updateQuestionDto);
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.questionService.remove(+id);
+  removeQuestion(@Param('id') id: string) {
+    return this.questionService.removeQuestion(+id);
   }
 }

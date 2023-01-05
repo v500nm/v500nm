@@ -9,24 +9,24 @@ import { gDetail, groups } from './groups.schema';
 export class GroupsService {
   constructor(@InjectModel(groups.name) private gModel:Model<gDetail>){}
 
-  async create(createGroupDto: CreateGroupDto) {
+  async createGroup(createGroupDto: CreateGroupDto) {
     const createdGroup= new this.gModel(createGroupDto)
     return createdGroup.save();
   }
 
-  async findAll(): Promise<groups[]> {
+  async findAllGroup(): Promise<groups[]> {
     return this.gModel.find().populate('students').exec()
   }
 
-  async findOne(gID: number) {
+  async findOneGroup(gID: number) {
     return this.gModel.findOne({'gID':gID}).exec();
   }
 
-  async update(gID: number, updateGroupDto: UpdateGroupDto) {
+  async updateGroup(gID: number, updateGroupDto: UpdateGroupDto) {
     return this.gModel.findOneAndUpdate({'gID':gID}, updateGroupDto).exec();
   }
 
-  async remove(gID: number) {
+  async removeGroup(gID: number) {
     return this.gModel.findOneAndRemove({'gID':gID}).exec();
   }
 }

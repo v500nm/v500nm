@@ -9,24 +9,24 @@ import { scDetail, schedules } from './schedule.schema';
 export class ScheduleService {
   constructor(@InjectModel(schedules.name) private scModel:Model<scDetail>){}
   
-  async create(createScheduleDto: CreateScheduleDto): Promise<schedules> {
+  async createSchedule(createScheduleDto: CreateScheduleDto): Promise<schedules> {
     const createdschedule = new this.scModel(createScheduleDto);
     return createdschedule.save();
   }
 
-  async findAll(): Promise<schedules[]> {
+  async findAllSchedule(): Promise<schedules[]> {
     return this.scModel.find().populate(['groups','faculties','subjects']).exec();
   }
 
-  async findOne(scID: number) {
+  async findOneSchedule(scID: number) {
     return this.scModel.findOne({'scID':scID}).exec();
   }
 
-  async update(scID: number, updateScheduleDto: UpdateScheduleDto): Promise<schedules> {
+  async updateSchedule(scID: number, updateScheduleDto: UpdateScheduleDto): Promise<schedules> {
     return this.scModel.findOneAndUpdate({'scID':scID},UpdateScheduleDto);
   }
 
-  async remove(scID: number): Promise<schedules> {
+  async removeSchedule(scID: number): Promise<schedules> {
     return this.scModel.findOneAndRemove({'scID':scID}).exec();
   }
 }

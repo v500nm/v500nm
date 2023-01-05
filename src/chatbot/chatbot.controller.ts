@@ -8,32 +8,27 @@ export class ChatbotController {
   constructor(private readonly chatbotService: ChatbotService) {}
 
   @Post()
-  create(@Body() createChatbotDto: CreateChatbotDto) {
-    return this.chatbotService.create(createChatbotDto);
-  }
-
-  @Get('populate')
-  findAllnPopulate(){
-    return this.chatbotService.findAllnPopulate();
+  createbot(@Body() createChatbotDto: CreateChatbotDto) {
+    return this.chatbotService.createbot(createChatbotDto);
   }
 
   @Get()
-  findAll() {
-    return this.chatbotService.findAll();
+  findAllbot() {
+    return this.chatbotService.findAllbot();
   }
 
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.chatbotService.findOne(+id);
+  findOnebot(@Param('id') id: string) {
+    return this.chatbotService.findOnebot(+id);
   }
 
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateChatbotDto: UpdateChatbotDto) {
-    return this.chatbotService.update(+id, updateChatbotDto);
+  updatebot(@Param('id') id: string, @Body() updateChatbotDto: UpdateChatbotDto) {
+    return this.chatbotService.updatebot(+id, updateChatbotDto);
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.chatbotService.remove(+id);
+  removebot(@Param('id') id: string) {
+    return this.chatbotService.removebot(+id);
   }
 }

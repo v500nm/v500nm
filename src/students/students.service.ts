@@ -15,7 +15,7 @@ export class StudentsService {
     return createdStudent.save();
   }
 
-  async findAll(): Promise<students[]> {
+  async findAllStudents(): Promise<students[]> {
     return this.stuModel.find().populate('groups').exec();
   }
 

@@ -8,27 +8,27 @@ export class SuggestionController {
   constructor(private readonly suggestionService: SuggestionService) {}
 
   @Post()
-  create(@Body() createSuggestionDto: CreateSuggestionDto) {
-    return this.suggestionService.create(createSuggestionDto);
+  createSuggestion(@Body() createSuggestionDto: CreateSuggestionDto) {
+    return this.suggestionService.createSuggestion(createSuggestionDto);
   }
 
   @Get()
-  findAll() {
-    return this.suggestionService.findAll();
+  findAllSuggestion() {
+    return this.suggestionService.findAllSuggestion();
   }
 
   @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.suggestionService.findOne(+id);
+  findOneSuggestion(@Param('id') id: string) {
+    return this.suggestionService.findOneSuggestion(+id);
   }
 
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateSuggestionDto: UpdateSuggestionDto) {
-    return this.suggestionService.update(+id, updateSuggestionDto);
+  updateSuggestion(@Param('id') id: string, @Body() updateSuggestionDto: UpdateSuggestionDto) {
+    return this.suggestionService.updateSuggestion(+id, updateSuggestionDto);
   }
 
   @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.suggestionService.remove(+id);
+  removeSuggestion(@Param('id') id: string) {
+    return this.suggestionService.removeSuggestion(+id);
   }
 }

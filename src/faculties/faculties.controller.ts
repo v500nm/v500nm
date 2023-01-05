@@ -8,27 +8,27 @@ export class FacultiesController {
   constructor(private readonly facultiesService: FacultiesService) {}
 
   @Post()
-  create(@Body() createFacultyDto: CreateFacultyDto) {
+  addFaculty(@Body() createFacultyDto: CreateFacultyDto) {
     return this.facultiesService.addFaculty(createFacultyDto);
   }
 
   @Get()
-  findAll() {
+  getAllFaculties() {
     return this.facultiesService.getAllFaculties();
   }
 
   @Get('/:fID')
-  findOne(@Param('fID') fID: number) {
+  getFaculty(@Param('fID') fID: number) {
     return this.facultiesService.getFaculty(+fID);
   }
 
   @Put('/:fID')
-  update(@Param('fID') fID: number, @Body() updateFacultyDto: UpdateFacultyDto) {
+  updateFaculty(@Param('fID') fID: number, @Body() updateFacultyDto: UpdateFacultyDto) {
     return this.facultiesService.updateFaculty(+fID, updateFacultyDto);
   }
 
   @Delete('/:fID')
-  remove(@Param('fID') fID: number) {
+  removeFaculty(@Param('fID') fID: number) {
     return this.facultiesService.removeFaculty(+fID);
   }
 }

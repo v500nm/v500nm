@@ -9,24 +9,24 @@ import { Model } from 'mongoose';
 export class SuggestionService {
   constructor(@InjectModel(suggestion.name) private sugModel:Model<suggestionDetail>){}
 
-  async create(createSuggestionDto: CreateSuggestionDto): Promise<suggestion> {
+  async createSuggestion(createSuggestionDto: CreateSuggestionDto): Promise<suggestion> {
     const insertSuggestion= new this.sugModel(createSuggestionDto);
     return insertSuggestion.save();
   }
 
-  async findAll(): Promise<suggestion[]> {
+  async findAllSuggestion(): Promise<suggestion[]> {
     return this.sugModel.find().exec();
   }
 
-  async findOne(sugID: number) {
+  async findOneSuggestion(sugID: number) {
     return this.sugModel.findOne({'sugID':sugID}).exec()
   }
 
-  async update(sugID: number, updateSuggestionDto: UpdateSuggestionDto): Promise<suggestion> {
+  async updateSuggestion(sugID: number, updateSuggestionDto: UpdateSuggestionDto): Promise<suggestion> {
     return this.sugModel.findOneAndUpdate({'sugID':sugID},updateSuggestionDto).exec();
   }
 
-  async remove(sugID: number) {
+  async removeSuggestion(sugID: number) {
     return this.sugModel.findOneAndRemove({'sugID':sugID}).exec();
   }
 }
