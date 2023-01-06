@@ -14,7 +14,7 @@ import { QuestionModule } from './question/question.module';
 import { SuggestionModule } from './suggestion/suggestion.module';
 
 @Module({
-  imports: [ChatModule, MongooseModule.forRoot('mongodb+srv://StudData:tXZGEjaGSi9Dp5ub@studdata.ykxwffq.mongodb.net/?retryWrites=true&w=majority'),
+  imports: [ChatModule, MongooseModule.forRoot('mongodb+srv://StudData:tyit333@studdata.ykxwffq.mongodb.net/?retryWrites=true&w=majority'),
             StudentsModule, FacultiesModule, SubjectsModule, ScheduleModule, AttendanceModule, 
             GroupsModule, ChatbotModule, QuestionModule, SuggestionModule],
   controllers: [AppController],
