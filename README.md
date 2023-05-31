@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **Node, ASP.NET, MongoDB**                 
 
-- 👨‍💻 All of my projects are available at [https://techvadnan.tech](https://techvadnan.tech)
+- 👨‍💻 All of my projects are available at [https://techvadnan.tech](https://techadnan-v500nm.vercel.app/)
 
 - 💬 Ask me about **JS, SQL, Networking, Python, PHP**
 
