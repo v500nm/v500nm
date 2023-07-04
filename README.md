@@ -8,7 +8,7 @@
 
 - 👨‍💻 All of my projects are available at [https://techvadnan.tech](https://techadnan-v500nm.vercel.app/)
 
-- 💬 Ask me about **JS, SQL, Networking, Python, PHP**
+- 💬 Ask me about **JS, .NET, Angular, NodeJS, SQL, Python, PHP**
 
 - 📫 How to reach me **adnans0307@gmail.com**
 
