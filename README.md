@@ -2,13 +2,13 @@
 <h1 align="center">Hey there 👋, It's Adnan Mangaonkar</h1>
 <h3 align="center">Learn - Grow - Conquer</h3>
 
-- 🔭 I’m currently working on **Node Attendance App**
+- 🔭 I’m currently working with **Benchmark Solutions**
 
-- 🌱 I’m currently learning **Node, ASP.NET, MongoDB**                 
+- 🌱 I’m currently learning **React, NodeJS, MSSQL**                 
 
 - 👨‍💻 All of my projects are available at [https://techvadnan.tech](https://techadnan-v500nm.vercel.app/)
 
-- 💬 Ask me about **JS, .NET, Angular, NodeJS, SQL, Python, PHP**
+- 💬 Ask me about **JS, React, Angular, NodeJS, .NET, SQL, Python, PHP**
 
 - 📫 How to reach me **adnans0307@gmail.com**
 
