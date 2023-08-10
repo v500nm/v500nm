@@ -2,6 +2,7 @@
 <h1 align="center">Hey there 👋, It's Adnan Mangaonkar</h1>
 <h3 align="center">Learn - Grow - Conquer</h3>
 
+- ![Profile View Counter](https://komarev.com/ghpvc/?username=v500nm)
 - 🔭 I’m currently working with **Benchmark Solutions**
 
 - 🌱 I’m currently learning **React, NodeJS, MSSQL**                 
