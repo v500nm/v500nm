@@ -8,13 +8,12 @@
 
 - 👨‍💻 All of my projects are available at [https://techvadnan.tech](https://techadnan-v500nm.vercel.app/)
 
-- 💬 Ask me about **JS, React, Angular, NodeJS, .NET, SQL, Python, PHP**
+- 💬 Ask me about **JS, React, Angular, NodeJS, .NET, SQL, Python**
 
 - 📫 How to reach me **adnans0307@gmail.com**
 
 - 📄 Know about my experiences [https://www.linkedin.com/in/adnan-mangaonkar-523351167/details/experience/](https://www.linkedin.com/in/adnan-mangaonkar-523351167/details/experience/)
 
-- ⚡ Fun fact **I practice PRO and acts NOOBIE**
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=v500nm&label=Profile%20views&color=0e75b6&style=flat"  alt="v500nm" /> </p>
 
 <h2 align="center">🤝 Connect with me:</h2>
